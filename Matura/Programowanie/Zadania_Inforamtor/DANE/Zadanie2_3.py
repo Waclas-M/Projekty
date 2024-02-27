@@ -13,7 +13,7 @@ for line in file_read:
         if line[-i] == "]" and line[-i-1] != "[":
             gleb_prawo +=1
 
-    if gleb_lewo > gleb_prawo:
+    if gleb_lewo > gleb_prawo:  
         file_save.write(f"\n {gleb_lewo}")
 
     else:
