@@ -1,4 +1,4 @@
-file = open('szachy.txt','r')
+file = open('szachy_przyklad.txt','r')
 wszystkie_plansze = file.readlines()
 maxi = 0
 puste_plansze = 0
