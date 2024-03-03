@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dbb45cd-f3cd-40bf-8336-57bc81f602f7" name="Changes" comment="New site">
-      <change afterPath="$PROJECT_DIR$/LearnEasy/HomeSite/templates/Base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnEasy/HomeSite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnEasy/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7dbb45cd-f3cd-40bf-8336-57bc81f602f7" name="Changes" comment="New site + first app">
+      <change beforePath="$PROJECT_DIR$/../Matura/Programowanie/Dane_2203/Zadnie1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Matura/Programowanie/Dane_2203/Zadnie1_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnEasy/HomeSite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEasy/HomeSite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnEasy/LearnEasy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEasy/LearnEasy/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnEasy/LearnEasy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnEasy/LearnEasy/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,23 +24,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2cxqQ8qQGWZyzTFTXeOsevhjyVS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Projekty/Strona/LearnEasy/HomeSite"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projekty/Strona/LearnEasy/HomeSite&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projekty\Strona\LearnEasy\HomeSite" />
@@ -100,12 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709063760250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New site + first app">
+      <option name="closed" value="true" />
+      <created>1709064904369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709064904369</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New site" />
-    <option name="LAST_COMMIT_MESSAGE" value="New site" />
+    <MESSAGE value="New site + first app" />
+    <option name="LAST_COMMIT_MESSAGE" value="New site + first app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
