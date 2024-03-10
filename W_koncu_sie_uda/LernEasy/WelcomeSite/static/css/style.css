@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    
+    
+    
+    padding: 0;
+    margin: 0;
+
+
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.Menu_style{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    background-color: rgb(52, 94, 211) ;
+    height: 5rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.Menu_style p{
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+.Menu_style button{
+
+    text-decoration: none;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0px;
+    column-gap: 0px;
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+.Menu_style button p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+    width: 5px;
+    height: 5px;
+}
+
+footer{
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+       
+}
+nav{
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .Menu_style{
+        height: 10rem;
+        column-gap: 180px;
+    }
+    .Menu_style p{
+        font-size: 50px;
+     
+
+    }
+    .Menu_style button{
+        display: none;
+        width: 50px;
+        height: 50px;
+
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        height: 4rem;
+        /*border: solid black 2px;*/
+        align-items: center;
+        border-bottom: solid black 0.1cm;
+
+    }
+    nav a{
+        /* border: solid black 1px; */
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        padding: 2px 7px;
+        font-size: 25px;
+       
+        
+    }
+    nav a:hover{
+        transition: font-size 1s;
+        font-size: 30px;
+    
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 40px;
+
+
+
+
+    }
+    
+
+
+
+  }
+  @media only screen and (min-width: 1200px){
+    nav a{
+ 
+        margin-left: 25px;
+ 
+       
+        
+    }
+
+
+    
+  }
