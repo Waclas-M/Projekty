@@ -1,54 +1,27 @@
 {%extends "base.html"%}
 {%block content%}
-<style>
-    .conteiner{
-        display:grid;
+{%load static%}
+<html>
+    <link rel="stylesheet" href="{% static 'css/style_home.css' %}">
+</html>
 
-        height: 80%;
-        width: 100%;
+    <article class="welcome_articule">
+        <h1>Hi! Welcome to site.</h1>
+        <p>I make this to project to help people learing others leangues. <br> On site you can easy learn some vocabulary. <br> I want make this proces easyer.</p>
+        
 
-        }
+    </article>
 
-    .description{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        margin-top: 40px;
-        text-align:center;
-        width: 900px;
-        height: 600px;
-        font-size: 25px;
-    }
-    .how_it_work{
-        width: 900px;
-        height: 600px;
-        font-size: 25px;
-        text-align:center;
+    <article>
+        <h2>How use site</h2>
+        <p>To use site you must be <a href="">log-in</a>.</p>
+        <p>Next you upload .txt file or take a picture of vocabulary that you want to learn.  <br>Vocalbulary must be in coretly order.</p>
+        <p> <br>  On one site english on other Polish and the must be seperd by ' - ' ex.</p>
+        <p> must - musieć <br> want - chcieć </p>
+        <p>There is video how to use app</p>
+        <video src="">  </video>
+        
 
-
-
-    }
-    .how_use_this{
-
-        width: 900px;
-        height: 600px;
-        font-size: 25px;
-        text-align:center;
-    }
-
-
-</style>
-
-    <div class="conteiner">
-
-        <div class="description">
-        <p>Lorem ipsum dolor sit amet. Ut distinctio dolor vel nemo cupiditate a unde galisum? Ut numquam quod qui molestiae similique eos totam eligendi ut dolorem eius vel quas incidunt 33 tenetur consequatur est labore eligendi! </p><p>Rem sunt temporibus est consequatur consequuntur et cumque voluptatem est internos voluptatum sed quasi optio vel nostrum corrupti. Est dolor eligendi qui rerum velit est officia nesciunt est rerum optio. </p><p>Aut sunt maxime ab ipsam saepe id minima doloribus aut impedit voluptatem At rerum reiciendis? Et porro unde id atque atque et tenetur voluptate. </p><p>Ex aperiam possimus id officiis deleniti est eaque suscipit sed voluptatem aliquid. Est ullam minima est nobis minima et possimus autem et quisquam dignissimos est cupiditate dolores. Et alias modi qui alias facilis non voluptas alias eos autem facilis! Ut vitae velit aut temporibus quibusdam et numquam expedita sed rerum tenetur. </p>
-        </div>
-
-        <div class="how_it_work"> <p>opisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopis</p> </div>
-
-        <div class="how_use_this"><p>opisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopisopis</p></div>
-
-    </div>
+    </article>
 
 {%endblock content%}

@@ -1,0 +1,56 @@
+article p{
+
+    font-size: 25px;
+
+}
+article p a{
+
+    text-decoration: none;
+    color: rgb(91, 6, 95);
+    font-weight: bold;
+    
+        
+
+}
+article{
+
+    margin: 10px;
+}
+
+@media only screen and (min-width: 720px) {
+    article{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    article p{
+        font-size: 35px;
+        margin: 3px;
+        text-align: center
+
+    }
+    article h1{
+
+        font-size: 35px;
+
+    }
+    article h2{
+
+        font-size: 35px
+    }
+    
+}
+@media only screen and (min-width: 1000px ) {
+
+    article {
+        margin: 0px 50px;
+        
+    }
+    article p{
+        text-align: center;
+    }
+    
+}
