@@ -209,6 +209,10 @@ nav{
 }
 @media only screen and (min-height: 2000px){
 
-
+    footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 
 }

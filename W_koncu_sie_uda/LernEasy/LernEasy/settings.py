@@ -118,7 +118,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (
-    ('static', 'W_koncu_sie_uda/LernEasy/WelcomeSite/static'),
+    ('static', 'C:/Projekty/W_koncu_sie_uda/LernEasy/WelcomeSite/static'),
 )
 
 # Default primary key field type
