@@ -58,13 +58,24 @@
 
     </nav>
 
+    <div class="rest_of_content">
+
+        {% if messages%}
+            {%for message in messages%}
+                <div class="massage">
+
+                    {{message}}
+
+                </div>
+            {%endfor%}
+        {%endif%}
 
 
-    {%block content%}
+        {%block content%}
 
-    {%endblock content%}
+        {%endblock content%}
 
-
+    </div>
 
 
 

@@ -1,4 +1,11 @@
 {%extends "WelcomeSite/base.html"%}
 {%block content%}
- <h1>Działa</h1>
+ <div>
+  <form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Sign up</button>
+  </form>
+
+ </div>
 {%endblock content%}
