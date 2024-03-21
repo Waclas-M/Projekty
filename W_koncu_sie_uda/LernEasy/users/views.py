@@ -11,7 +11,7 @@ def register(request):
             username = form.cleaned_data.get('username')
 
             messages.success(request, f'Konto stworzone: {username}!')
-            return redirect('Welcome-Page')
+            return redirect('login')
     else:
         form = UserRegisterForm()
     return render(request,'users/registrtion.html',{'form':form})
