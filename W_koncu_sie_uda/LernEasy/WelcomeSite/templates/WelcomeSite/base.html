@@ -20,24 +20,17 @@
                 <p>-</p>
                 <p>-</p>
             </button>
-            <div class="dwa_menu">
+            <!-- <div class="dwa_menu">
                  <a href="">Home Page</a>
-            </div>
+            </div> -->
 
               <div class="dwa_menu">
-                 <a href="">Start Learning</a>
+                 <a href="{% url 'app_fiszki'%}">Start Learning</a>
             </div>
 
 
             <div class="dwa_menu">
                  <a href="">About Us</a>
-            </div>
-            <!--Dać if'a gdy zalogowany  -->
-            <div class="dwa_menu">
-                 <a href="">Your Profile</a>
-            </div>
-            <div class="dwa_menu">
-                 <a href="">Subscription</a>
             </div>
 
         </div>
@@ -49,10 +42,8 @@
     <nav>
         <div>
             <a href="">Home Page</a>
-            <a href="">Start Learning</a>
+            <a href="{% url 'app_fiszki'%}">Start Learning</a>
             <a href="">About Us</a>
-            <a href="">Your Profile</a>
-            <a href="">Subscription</a>
 
         </div>
 
