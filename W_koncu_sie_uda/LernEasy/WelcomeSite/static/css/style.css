@@ -17,6 +17,21 @@ a{
     color: white;
     text-decoration: none;
 }
+header button{
+
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 1.7rem;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+header button:hover{
+    color: dodgerblue;
+    cursor: pointer;
+
+}
 .navbar{
     min-height: 90px;
     display: flex;
@@ -49,7 +64,7 @@ a{
 }
 .hamburger{
     display: none;
-    cursor: pionter;
+    cursor: pointer;
 
 }
 .bar{
@@ -78,6 +93,7 @@ a{
         transform: translateY(-8px) rotate(-45deg);
 
     }
+
     .nav-menu{
 
         position: fixed;
@@ -95,6 +111,12 @@ a{
     }
     .nav-menu.active{
         left:0;
+    }
+    header.active{
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+
     }
 
 }

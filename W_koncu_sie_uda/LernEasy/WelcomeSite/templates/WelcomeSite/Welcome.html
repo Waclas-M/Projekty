@@ -12,16 +12,23 @@
 
     </article>
 
-    <article>
+<hr>
+
+    <article class="article_2">
         <h2>How use site</h2>
-        <p>To use site you must be <a href="">log-in</a>.</p>
+        <p>To use site you must be <a href="{% url 'login'%}">log-in</a>.</p>
         <p>Next you upload .txt file or take a picture of vocabulary that you want to learn.  <br>Vocalbulary must be in coretly order.</p>
         <p> <br>  On one site english on other Polish and the must be seperd by ' - ' ex.</p>
         <p> must - musieć <br> want - chcieć </p>
         <p>There is video how to use app</p>
-        <video src="{% static 'videos/video_prezentation.mp4'%}">  </video>
-        
+
 
     </article>
 
+  <div class="videocss">
+     <video  controls autoplay loop muted playsinline >
+            <source src="{% static 'videos/video_prezentation.mp4'%}">
+        </video>
+    </div>
 {%endblock content%}
+

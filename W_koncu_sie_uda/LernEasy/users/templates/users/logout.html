@@ -1,12 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-    <div> <h1>logout</h1> </div>
-
-</body>
+{%extends "WelcomeSite/base.html"%}
+{%block content%}
+{%load static%}
+<html>
+    <link rel="stylesheet" href="{% static 'css/style_logout.css' %}">
 </html>
+
+
+    <div class="Logout">
+
+           <div class="massage">
+               <h2>Zostałeś wylogowany</h2>
+            
+            <a href="{% url 'login'%}">Zaloguj się ponownie</a>
+               </div>
+
+    </div>
+
+{%endblock content%}

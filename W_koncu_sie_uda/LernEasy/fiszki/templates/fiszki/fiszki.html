@@ -1,14 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>YEs</h1>
-    <form method="post" action="{% url 'logout' %}">
-    {% csrf_token %}
-    <button type="submit">logout</button>
-</form>
-</body>
+{%extends "WelcomeSite/base.html"%}
+{%block content%}
+{%load static%}
+<html>
+    <link rel="stylesheet" href="{% static 'css/style_applikacja.css' %}">
 </html>
+
+   
+    <div class="main">
+
+        <article class="Hero">
+         <div>
+            <h2>Zacznij się uczyć!</h2>
+            <p>Dzięki naszej stronie łatwo przygotujesz zestawy słówek oraz się ich nauczysz!
+               <br> Jedyne co musisz zrobić to wgrać lub wpisać słowka na naszą stronę.
+               <br> Uruchomić jeden z trybów:
+               <ul>
+                <li>- Wpisywanie</li>
+                <li>- Fiszki</li>
+                <li>- Test</li>
+               </ul>
+               <br> Każde z wymienionych trybów można zmieniać kolejność <br> Język opcy - Polski | Polski - Język obcy
+
+            </p>
+            <h3>Wypróbuj już teraz i stwórz swój pierwszy zestaw!</h3>
+            <a href="#">Stwórz Zestaw!</a>
+            <a href="#">Zacznij naukę!</a>
+        </div>
+            <img src="{% static 'foto/book-img.png'%} " alt="">
+
+        </article>
+        <article class="User_data">
+            <img src="{% static 'foto/User_data_foto.png'%} " alt="">
+            <div>
+                <h2>Twoje Zestawy</h2>
+                <p>Ostatnio używane zestawy</p>
+                <!-- x6 div z zestaw pentla for  -->
+               <a href=""> <div class="zestaw"> Nazwa zestawu </div> </a>
+
+            </div>
+
+        </article>
+
+
+        <article class="File_upload">
+
+            
+
+        </article>
+
+
+    </div>
+
+
+
+{%endblock content%}

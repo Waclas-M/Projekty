@@ -1,0 +1,128 @@
+
+.main{
+width: 100%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 0;
+margin: 0;
+}
+article{
+    width: 100%;
+   height: 750px;
+}
+.Hero{
+    
+
+    background-color:beige ;
+}
+
+.User_data{
+    
+    background-color: blanchedalmond;
+}
+.File_upload{
+
+    background-color: burlywood;
+}
+.Hero div{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.Hero div a{
+
+    border-left: 3px solid darkslateblue ;
+    padding-left: 5px;
+    color: darkslateblue;
+    margin-top: 15px;
+}
+.Hero div a:hover{
+    font-size: 25px;
+    color: darkslategray;
+    border-left: 3px solid darkslategray ;
+    transition: all 0.3s linear;
+}
+
+.Hero img{
+    width: 0px;
+}
+.User_data img{
+    display: none;
+}
+.User_data{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    
+}
+.User_data div{
+    text-align: center;
+    padding: 0px;
+    margin: 50px 0px;
+}
+.User_data div p{
+    margin-top: 5px;
+}
+.zestaw{
+
+    width: 200px;
+    height: 40px;
+    border: solid 2px rgb(51, 39, 39);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   
+    color: black;
+}
+
+@media(min-width: 1000px){
+
+    .Hero div{
+        text-align:left;
+        font-size: 25px;
+        padding: 80px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .Hero div a:hover{
+        font-size: 30px;
+    }
+    .Hero{
+        
+        display: flex;
+        justify-content: center;
+    }
+    .Hero img{
+
+        width: auto;
+        height: auto;
+    }
+    .User_data img{
+        display: block;
+        width: 600px;
+        height: auto;
+    }
+    .zestaw{
+
+        width: 350px;
+    }
+
+}
+@media(min-width: 1500px){
+
+    article{
+        width: 100%;
+       height: 1000px;
+    }
+    .User_data img{
+        display: block;
+        width: 800px;
+        height: auto;
+    }
+
+}
