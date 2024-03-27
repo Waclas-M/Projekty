@@ -7,11 +7,11 @@ margin: 0;
 }
 article{
     width: 100%;
-   height: 750px;
+   height: 650px;
 }
 .Hero{
     
-
+    
     background-color:beige ;
 }
 
@@ -44,7 +44,8 @@ article{
     font-size: 25px;
     color: darkslategray;
     border-left: 3px solid darkslategray ;
-    transition: all 0.3s linear;
+    transform: scale(20px);
+    transition: transform 0.4s ease-in-out;
 }
 
 .Hero img{
@@ -80,6 +81,39 @@ article{
     color: black;
 }
 
+.File_upload img{
+
+display: none;
+}
+.File_upload{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+.File_upload div{
+    margin-top: 50px;
+}
+.przyklady img{
+    cursor: pointer;
+    display: block;
+    width:  150px;
+    height: 150px;
+    border: solid black 2px;
+}
+.przyklady{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  
+
+    gap: 20px;
+}
+
 @media(min-width: 1000px){
 
     .Hero div{
@@ -102,6 +136,12 @@ article{
         width: auto;
         height: auto;
     }
+    .User_data{
+        height: 1080px;
+    }
+    .File_upload{
+        height: 1080px;
+    }
     .User_data img{
         display: block;
         width: 600px;
@@ -121,8 +161,22 @@ article{
     }
     .User_data img{
         display: block;
-        width: 800px;
+        width: 1000px;
         height: auto;
+    }
+    .File_upload img {
+        display: block;
+        width: 500px;
+        height: 400px;
+    }
+    .przyklady{
+        margin-top: 50px;
+        flex-direction:row ;
+
+    }
+    .przyklady img{
+
+        height: 800px;
     }
 
 }
