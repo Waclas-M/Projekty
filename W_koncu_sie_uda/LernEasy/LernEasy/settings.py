@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'Profile.apps.ProfileConfig',
     'fiszki.apps.FiszkiConfig',
     'crispy_forms',
     'crispy_bootstrap4',
